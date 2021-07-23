@@ -19,6 +19,7 @@ o	Maven Framework (https://maven.apache.org/download.cgi, choose the Binary zip 
 	Required to setup MAVEN_HOME variables (https://devwithus.com/install-maven-windows/)
 
 o	Selenium WebDriver and TestNG are already installed and no further action is required.
+
 2.	Download the repository from GitHub (https://github.com/ja-valdepenas/focus-test)
 3.	Extract to a folder.
 4.	Open Eclipse IDE and go to File > Import.
