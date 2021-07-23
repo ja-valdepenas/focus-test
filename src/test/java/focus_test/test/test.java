@@ -10,7 +10,7 @@ import static org.testng.Assert.assertTrue;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 
 public class test {
@@ -43,8 +43,8 @@ public class test {
   }
   @BeforeClass
   public void beforeClass() {
-	  	System.setProperty("webdriver.gecko.driver", "./src/test/resources/driver/geckodriver.exe");
-		driver = new FirefoxDriver();
+	  	System.setProperty("webdriver.chrome.driver", "./src/test/resources/driver/chromedriver.exe");
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://google.com");
   }
